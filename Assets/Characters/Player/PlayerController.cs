@@ -8,7 +8,6 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 1f;
     public float collisionOffset = 0.05f;
-    public bool buildMode = false;
     public ContactFilter2D movementFilter;
     public SwordAttack swordAttack;
 
